@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+body {
+	margin:0;
+	font-family: 'Roboto', sans-serif;	
+}
+
+.inner_wrapper{
+	width:1200px;
+	margin: 0 auto;	
+}
+
+header {
+	background-image:url(../img/css_code.jpg);
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+nav {
+	height:70px;
+	background-color:#252f31;
+	display:flex;			
+}
+
+nav .inner_wrapper {
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+}
+
+nav a {
+	color:#FFF;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding: 0 20px;
+	font-weight:700;
+	transition: all .2s ease;
+}
+	
+nav a:hover {
+	color:#2dcc70;
+	
+}
+
+h1 {
+	color:#FFF;
+	text-transform:uppercase;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	padding: 15px 0;		
+}
+
+h2 {
+	font-size: 30px;
+	color:#566366;
+	text-transform:uppercase;
+}
+
+p {
+	font-size:18px;
+	color:#919191;
+	line-height:1.8em;	
+}
+
+header a{ 
+	color:#FFFFFF;
+	text-transform:uppercase;
+	border:2px solid;
+	padding:15px;
+	text-decoration:none;
+}
+
+#values_goals .inner_wrapper{
+	display:flex;
+	padding: 60px 0 70px;
+}
+
+#values_goals article {
+	width:31.33%;
+	margin:1%;	
+}
+
+#about_me {
+	display:flex;
+	background-color:#F2F2F1;
+}
+
+#about_me .inner_wrapper{
+	display:flex;
+	justify-content:space-between;		
+}
+
+#about_me section{
+	display:flex;
+	flex-wrap:wrap;	
+	width:50%;
+	align-content:flex-start;
+	justify-content:space-between;
+}
+
+#about_me article:not(:first-of-type) {
+	width:46%;	
+}
+
+#skills progress[value] {
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	width:100%;	
+	height:20px;	
+}
+
+#skills .inner_wrapper{
+	display: flex;
+	justify-content:space-between;
+	padding: 60px 0 70px;		
+}
+
+#skills article, #skills section{
+	width:48%;
+}
+
+#skills progress[value]::-webkit-progress-bar {
+	background-color:#F2F2F1;	
+}
+
+#skills progress[value]::-webkit-progress-value {
+	background-color:#2dcc70;	
+}
+
+#skills a, #resume a{ 
+	color:#2dcc70;
+	text-transform:uppercase;
+	border:2px solid;
+	padding:15px;
+	text-decoration:none;
+	display:inline-block;
+	margin:20px 0;
+}
+
+
+
+/*
+progress[value]::-webkit-progress-value::after {
+  content: '80%';
+  position: absolute;
+  right: 0;
+  top: -125%;
+}
+*/
+
+#resume{
+	background-color:#F2F2F1;	
+}
+
+#resume .inner_wrapper{
+	text-align:center;
+	padding:60px 0 70px;
+}
+
+#portfolio article {
+	text-align:center;
+}
+#portfolio section{
+	display:flex;
+	flex-wrap:wrap;	
+	justify-content:space-between;
+}
+#portfolio img{
+	margin: 15px 0;	
+}
+
+#contact {
+	background-color:#252e30;	
+}
+
+#contact .inner_wrapper{
+	padding:60px 0 70px;
+	color:#FFFFFF;
+	display:flex;
+	justify-content:space-between;	
+}
+
+#contact article, #contact form{
+	width:48%;
+}
+
+#contact form{
+	display:flex;
+	flex-direction:column;
+}
+
+#contact label, #contact input, #contact textarea{
+	display:block;
+}
+
+#contact label{
+	margin:20px 0 5px;	
+}
+#contact input, #contact textarea{
+	background-color:#4b5456;
+	border:none;
+	padding:10px;
+	font-family:'roboto', sans-serif;
+	font-size:16px;
+	color:#f2f2f1;	
+}
+
+
+#contact button{
+	align-self:flex-start;
+	padding:15px;
+	margin:20px 0;
+	text-transform:uppercase;
+	color:#f2f2f1;
+	background-color:#4b5456;
+	border:none;
+}
+
+
+
+
+
+
+
+
+
