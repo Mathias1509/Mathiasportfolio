@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+h1{
+font-family: 'Merriweather', serif;
+font-size:28px	
+  }
+  
+p{
+font-family: 'Open Sans Condensed', sans-serif;
+font-size:14px	
+	}
+
+.wrapper{
+	width:1050px;
+	height: 1050px;
+	background-color:#00E019;
+	margin:auto;
+}
+.banner{
+	width:1050px;
+	height: 450px;
+	background-image:url(../img/dsdsds.jpg);
+	background-repeat:no-repeat;
+	float:left;
+}
+.content{
+	width:1050px;
+	height: 150px;
+	background-color:#4CC700;
+	float:left;	
+}
